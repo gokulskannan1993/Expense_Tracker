@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/et_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_context"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_amount"
+        android:inputType="number"
+        />
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_date"
+        android:textSize="20sp"
+        />
+
+
+    <CalendarView
+        android:id="@+id/cv_calender"
+        android:layout_width="match_parent"
+        android:layout_height="322dp"
+     />
+
+    <CheckBox
+        android:id="@+id/cb_is_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_is_regular" />
+
+</LinearLayout>

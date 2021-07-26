@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.example027.MainActivity" >
+    <item
+        android:id="@+id/menu_home"
+        android:orderInCategory="100"
+        android:title="@string/txt_menu_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_select_month"
+        android:orderInCategory="100"
+        android:title="@string/txt_all_months"
+        app:showAsAction="never" />
+
+</menu>

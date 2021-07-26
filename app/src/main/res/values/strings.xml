@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="income">Monthly Income ($): 0 </string>
+    <string name="surplus">Surplus($): 0</string>
+    <string name="addExpense_text">Add New Expense </string>
+    <string name="change_income">Change Monthly Income</string>
+    <string name="add_context">Add Context</string>
+    <string name="add_amount">Add Amount ($)</string>
+    <string name="add_date">Select Date</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="month">Month : </string>
+    <string name="year">Year : </string>
+
+
+    <string-array name="month_text">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+
+    <string name="txt_menu_home">Home</string>
+    <string name="txt_all_months">Select Month</string>
+    <string name="txt_all_Sheets">All Sheets</string>
+    <string name="txt_is_regular">Mark as Regular Expense</string>
+    <string name="delete_sheet">Delete Sheet</string>
+    <string name="tv_regular">Regular Expenses($): 0</string>
+    <string name="tv_non_regular">Non-Regular Expenses($): 0</string>
+
+
+</resources>

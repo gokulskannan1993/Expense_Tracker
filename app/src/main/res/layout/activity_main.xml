@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/income"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn_changeIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_income"
+        android:layout_below="@id/tv_income"
+        />
+
+    <Button
+        android:id="@+id/btn_delete_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_sheet"
+        android:layout_below="@id/btn_changeIncome"
+
+        />
+    <TextView
+        android:id="@+id/tv_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/month"
+        android:layout_below="@id/btn_delete_sheet"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/year"
+        android:layout_below="@id/tv_month"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/tv_regular"
+        android:layout_below="@id/tv_year"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_non_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/tv_non_regular"
+        android:layout_below="@id/tv_regular"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_surplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/surplus"
+        android:layout_below="@id/tv_non_regular"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <ListView
+        android:id="@+id/lv_expense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_surplus"
+        android:layout_marginTop="2dp">
+    </ListView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_addExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:contentDescription="@string/add_expense"
+        android:src="@drawable/ic_add_expense" />
+
+
+
+
+
+</RelativeLayout>
